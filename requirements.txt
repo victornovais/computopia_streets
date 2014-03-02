@@ -1,0 +1,2 @@
+# Graph library
+networkx==1.8.1
