@@ -56,9 +56,9 @@ G.add_edges_from([
     (16, 20),
 ])
 
-nx.draw_spectral(G)
+nx.draw_spectral(G, node_size=800)
 
-plt.savefig("manhattan_graphpng") # save as png
+plt.savefig("manhattan_graph.png") # save as png
 plt.show()
 
 
